@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: print greeting
-        run: echo "LUKIJANO MAKIJANO"
+        run: |
+          echo "LUKIJANO MAKIJANO"
+          echo "TEST"
       - name: print goodbye
         run: echo "POZDRAV" 
